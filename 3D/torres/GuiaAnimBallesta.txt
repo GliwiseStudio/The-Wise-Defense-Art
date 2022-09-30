@@ -3,4 +3,4 @@ fotogramas:
 0 - 4 nada con lanza
 5 - 15 disparando
 15 - 17 nada vacia
-16 - 30 recargando
+18 - 30 recargando
