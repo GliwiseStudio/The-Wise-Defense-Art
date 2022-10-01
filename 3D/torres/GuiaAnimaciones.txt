@@ -1,6 +1,6 @@
 fotogramas:
 
-0 - 4 nada con lanza
+0 - 4 nada con proyectil
 5 - 15 disparando
 15 - 17 nada vacia
 18 - 30 recargando
