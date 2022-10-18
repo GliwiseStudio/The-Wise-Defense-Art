@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2022
 		Month: 10
-		Day: 17
+		Day: 18
 		Hour: 22
-		Minute: 29
-		Second: 10
-		Millisecond: 243
+		Minute: 50
+		Second: 42
+		Millisecond: 567
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,19 +28,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\TileSand.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\TileSand.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "D:\arte de jjss\tiles\arena\TileSea.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\arte de jjss\tiles\arena\TileSea.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2022"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "17/10/2022 20:29:10.243"
-			P: "Original|FileName", "KString", "", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\TileSand.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "18/10/2022 20:50:42.567"
+			P: "Original|FileName", "KString", "", "", "D:\arte de jjss\tiles\arena\TileSea.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2022"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "17/10/2022 20:29:10.243"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/10/2022 20:50:42.567"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\minie\Documents\3ds Max 2022"
 		}
 	}
@@ -76,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1878611663552, "", "Scene" {
+	Document: 2370998696928, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -234,9 +234,9 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1878632758416, "Geometry::", "Mesh" {
+	Geometry: 2371969192816, "Geometry::", "Mesh" {
 		Vertices: *24 {
-			a: 5,0,-5,-5,2,-5,5,2,5,-5,0,5,5,2,-5,-5,2,5,-5,0,-5,5,0,5
+			a: 5,0,-5,-5,1,-5,5,1,5,-5,0,5,5,1,-5,-5,1,5,-5,0,-5,5,0,5
 		} 
 		PolygonVertexIndex: *36 {
 			a: 4,1,-3,7,3,-1,5,2,-2,6,0,-4,4,0,-2,4,2,-1,5,3,-3,5,1,-4,6,3,-2,6,1,-1,7,2,-4,7,0,-3
@@ -278,7 +278,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1878657127440, "Model::tile_dirtHigh", "Mesh" {
+	Model: 2373334913216, "Model::tile_sea", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -286,26 +286,27 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,2.38418579101563e-07,-2.38418579101563e-07
 			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000025044781,-0,0
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.937008,3.937008,3.937008
 			P: "currentUVSet", "KString", "", "U", "map1"
 			P: "UDP3DSMAX", "KString", "", "U", "MapChannel:1 = map1&cr;&lf;"
-			P: "MaxHandle", "int", "Integer", "UH",1
+			P: "MaxHandle", "int", "Integer", "UH",10
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1877750144576, "Material::dirt", "" {
+	Material: 2371968231728, "Material::dirt", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
 		Properties70:  {
 			P: "ShadingModel", "KString", "", "", "unknown"
-			P: "AmbientColor", "ColorRGB", "Color", "",0.976470589637756,0.713725507259369,0.450980395078659
-			P: "DiffuseColor", "ColorRGB", "Color", "",0.976470589637756,0.713725507259369,0.450980395078659
+			P: "AmbientColor", "ColorRGB", "Color", "",0.176470592617989,0.539568364620209,0.882352948188782
+			P: "DiffuseColor", "ColorRGB", "Color", "",0.176470592617989,0.539568364620209,0.882352948188782
 			P: "SpecularColor", "ColorRGB", "Color", "",0.200000002980232,0.200000002980232,0.200000002980232
-			P: "SpecularFactor", "double", "Number", "",0.864385604858398
-			P: "ShininessExponent", "double", "Number", "",19.9999980926514
+			P: "SpecularFactor", "double", "Number", "",0.864385962486267
+			P: "ShininessExponent", "double", "Number", "",20.0000247955322
 			P: "TransparencyFactor", "double", "Number", "",0
 			P: "EmissiveColor", "ColorRGB", "Color", "",0,0,0
 			P: "EmissiveFactor", "double", "Number", "",0
@@ -315,9 +316,9 @@ Objects:  {
 			P: "3dsMax|SuperClassID", "int", "Integer", "",3072
 			P: "3dsMax|Parameters", "Compound", "", ""
 			P: "3dsMax|ORIGINAL_MTL", "KString", "", "", "PHYSICAL_MTL"
-			P: "3dsMax|Parameters|material_mode", "Integer", "", "A",0
+			P: "3dsMax|Parameters|material_mode", "Integer", "", "A",1
 			P: "3dsMax|Parameters|base_weight", "Float", "", "A",1
-			P: "3dsMax|Parameters|base_color", "ColorAndAlpha", "", "A",0.976470589637756,0.713725507259369,0.450980395078659,1
+			P: "3dsMax|Parameters|base_color", "ColorAndAlpha", "", "A",0.176470592617989,0.539568364620209,0.882352948188782,1
 			P: "3dsMax|Parameters|reflectivity", "Float", "", "A",1
 			P: "3dsMax|Parameters|roughness", "Float", "", "A",0.567807
 			P: "3dsMax|Parameters|roughness_inv", "Bool", "", "A",0
@@ -332,7 +333,7 @@ Objects:  {
 			P: "3dsMax|Parameters|anisoangle", "Float", "", "A",0
 			P: "3dsMax|Parameters|aniso_mode", "Integer", "", "A",0
 			P: "3dsMax|Parameters|aniso_channel", "Integer", "", "A",0
-			P: "3dsMax|Parameters|transparency", "Float", "", "A",0
+			P: "3dsMax|Parameters|transparency", "Float", "", "A",0.5
 			P: "3dsMax|Parameters|trans_color", "ColorAndAlpha", "", "A",0,0,0,1
 			P: "3dsMax|Parameters|trans_depth", "Float", "", "A",0
 			P: "3dsMax|Parameters|trans_roughness", "Float", "", "A",0
@@ -405,7 +406,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Implementation: 1877700511648, "Implementation::dirt_Implementation", "" {
+	Implementation: 2373328950656, "Implementation::dirt_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -413,7 +414,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 1879200242512, "BindingTable::root 1", "" {
+	BindingTable: 2373327958768, "BindingTable::root 27", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -515,18 +516,18 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::tile_dirtHigh, Model::RootNode
-	C: "OO",1878657127440,0
+	;Model::tile_sea, Model::RootNode
+	C: "OO",2373334913216,0
 	
-	;Geometry::, Model::tile_dirtHigh
-	C: "OO",1878632758416,1878657127440
+	;Geometry::, Model::tile_sea
+	C: "OO",2371969192816,2373334913216
 	
-	;Material::dirt, Model::tile_dirtHigh
-	C: "OO",1877750144576,1878657127440
+	;Material::dirt, Model::tile_sea
+	C: "OO",2371968231728,2373334913216
 	
 	;Material::dirt, Implementation::dirt_Implementation
-	C: "OO",1877750144576,1877700511648
+	C: "OO",2371968231728,2373328950656
 	
-	;BindingTable::root 1, Implementation::dirt_Implementation
-	C: "OO",1879200242512,1877700511648
+	;BindingTable::root 27, Implementation::dirt_Implementation
+	C: "OO",2373327958768,2373328950656
 }

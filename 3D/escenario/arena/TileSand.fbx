@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2022
 		Month: 10
-		Day: 17
+		Day: 18
 		Hour: 22
-		Minute: 25
-		Second: 1
-		Millisecond: 378
+		Minute: 49
+		Second: 58
+		Millisecond: 203
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,19 +28,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\HalfSlabSand.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\HalfSlabSand.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "D:\arte de jjss\tiles\arena\TileSand.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\arte de jjss\tiles\arena\TileSand.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2022"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "17/10/2022 20:25:01.378"
-			P: "Original|FileName", "KString", "", "", "D:\arte de jjss\The-Wise-Defense-Art-main\The-Wise-Defense-Art-main\3D\tiles\playa\HalfSlabSand.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "18/10/2022 20:49:58.203"
+			P: "Original|FileName", "KString", "", "", "D:\arte de jjss\tiles\arena\TileSand.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2022"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "17/10/2022 20:25:01.378"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/10/2022 20:49:58.203"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\minie\Documents\3ds Max 2022"
 		}
 	}
@@ -76,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1207620332672, "", "Scene" {
+	Document: 2373335095280, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -96,12 +96,12 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 8
+	Count: 6
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
 	ObjectType: "Model" {
-		Count: 2
+		Count: 1
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -228,25 +228,15 @@ Definitions:  {
 			}
 		}
 	}
-	ObjectType: "NodeAttribute" {
-		Count: 1
-		PropertyTemplate: "FbxNull" {
-			Properties70:  {
-				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
-				P: "Size", "double", "Number", "",100
-				P: "Look", "enum", "", "",1
-			}
-		}
-	}
 }
 
 ; Object properties
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1208773283216, "Geometry::", "Mesh" {
+	Geometry: 2371969996896, "Geometry::", "Mesh" {
 		Vertices: *24 {
-			a: 5,0,-5,-5,1,-5,5,1,5,-5,0,5,5,1,-5,-5,1,5,-5,0,-5,5,0,5
+			a: 5,0,-5,-5,2,-5,5,2,5,-5,0,5,5,2,-5,-5,2,5,-5,0,-5,5,0,5
 		} 
 		PolygonVertexIndex: *36 {
 			a: 4,1,-3,7,3,-1,5,2,-2,6,0,-4,4,0,-2,4,2,-1,5,3,-3,5,1,-4,6,3,-2,6,1,-1,7,2,-4,7,0,-3
@@ -288,10 +278,7 @@ Objects:  {
 			}
 		}
 	}
-	NodeAttribute: 1209314606720, "NodeAttribute::", "Null" {
-		TypeFlags: "Null"
-	}
-	Model: 1209319964752, "Model::tile_dirt", "Mesh" {
+	Model: 2373335472784, "Model::tile_dirtHigh", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -299,29 +286,17 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,1.9073486328125e-06,-1.9073486328125e-06
 			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000025044781,-0,0
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",3.937008,3.937008,3.937008
 			P: "currentUVSet", "KString", "", "U", "map1"
 			P: "UDP3DSMAX", "KString", "", "U", "MapChannel:1 = map1&cr;&lf;"
-			P: "MaxHandle", "int", "Integer", "UH",1
+			P: "MaxHandle", "int", "Integer", "UH",12
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1209319940640, "Model::Particle View 001", "Null" {
-		Version: 232
-		Properties70:  {
-			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
-			P: "RotationActive", "bool", "", "",1
-			P: "InheritType", "enum", "", "",1
-			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "MaxHandle", "int", "Integer", "UH",2
-		}
-		Shading: T
-		Culling: "CullingOff"
-	}
-	Material: 1209315716976, "Material::dirt", "" {
+	Material: 2372639725376, "Material::dirt", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -330,8 +305,8 @@ Objects:  {
 			P: "AmbientColor", "ColorRGB", "Color", "",0.976470589637756,0.713725507259369,0.450980395078659
 			P: "DiffuseColor", "ColorRGB", "Color", "",0.976470589637756,0.713725507259369,0.450980395078659
 			P: "SpecularColor", "ColorRGB", "Color", "",0.200000002980232,0.200000002980232,0.200000002980232
-			P: "SpecularFactor", "double", "Number", "",0.864385604858398
-			P: "ShininessExponent", "double", "Number", "",19.9999980926514
+			P: "SpecularFactor", "double", "Number", "",0.864385962486267
+			P: "ShininessExponent", "double", "Number", "",20.0000247955322
 			P: "TransparencyFactor", "double", "Number", "",0
 			P: "EmissiveColor", "ColorRGB", "Color", "",0,0,0
 			P: "EmissiveFactor", "double", "Number", "",0
@@ -431,7 +406,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Implementation: 1209311074304, "Implementation::dirt_Implementation", "" {
+	Implementation: 2371080749392, "Implementation::dirt_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -439,7 +414,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 1209316084208, "BindingTable::root 1", "" {
+	BindingTable: 2373328000240, "BindingTable::root 25", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -541,24 +516,18 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::tile_dirt, Model::RootNode
-	C: "OO",1209319964752,0
+	;Model::tile_dirtHigh, Model::RootNode
+	C: "OO",2373335472784,0
 	
-	;Model::Particle View 001, Model::RootNode
-	C: "OO",1209319940640,0
+	;Geometry::, Model::tile_dirtHigh
+	C: "OO",2371969996896,2373335472784
 	
-	;Geometry::, Model::tile_dirt
-	C: "OO",1208773283216,1209319964752
-	
-	;Material::dirt, Model::tile_dirt
-	C: "OO",1209315716976,1209319964752
-	
-	;NodeAttribute::, Model::Particle View 001
-	C: "OO",1209314606720,1209319940640
+	;Material::dirt, Model::tile_dirtHigh
+	C: "OO",2372639725376,2373335472784
 	
 	;Material::dirt, Implementation::dirt_Implementation
-	C: "OO",1209315716976,1209311074304
+	C: "OO",2372639725376,2371080749392
 	
-	;BindingTable::root 1, Implementation::dirt_Implementation
-	C: "OO",1209316084208,1209311074304
+	;BindingTable::root 25, Implementation::dirt_Implementation
+	C: "OO",2373328000240,2371080749392
 }
